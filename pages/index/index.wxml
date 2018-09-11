@@ -1,0 +1,4 @@
+<view class="section search">
+  <icon type="search" size="20" id='ico_search'/>
+  <input class="txt_search" placeholder="搜索美甲款式" type='text' placeholder-class="place_search" confirm-type="search" />
+</view>

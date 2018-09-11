@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/appoint/appoint",
+    "pages/book/book",
+    "pages/user/user",
+    "pages/shop/shop",
+    "pages/cart/cart"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d4237a",
+    "navigationBarTitleText": "妖023",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":false 
+  },
+  "tabBar":{
+    "backgroundColor":"#fff",
+    "position":"bottom",
+    "selectedColor":"#d4237a",
+     "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"images/png/home.png",
+      "selectedIconPath":"images/png/c_home.png"
+    }, 
+    {
+      "pagePath": "pages/book/book",
+      "text": "知识",
+      "iconPath": "images/png/book.png",
+      "selectedIconPath": "images/png/c_book.png"
+    },
+    {
+      "pagePath": "pages/shop/shop",
+      "text": "商城",
+      "iconPath": "images/png/shop.png",
+      "selectedIconPath": "images/png/c_shop.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "images/png/cart.png",
+      "selectedIconPath": "images/png/c_cart.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "images/png/my.png",
+      "selectedIconPath": "images/png/c_my.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true 
+}
